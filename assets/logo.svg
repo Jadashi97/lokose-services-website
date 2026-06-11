@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110" role="img" aria-label="Lokose Services Group logo">
+  <title>Lokose Services Group</title>
+  <circle cx="55" cy="55" r="55" fill="#0a2540"/>
+  <circle cx="55" cy="55" r="50" fill="none" stroke="#c8922a" stroke-width="1.5"/>
+  <circle cx="55" cy="55" r="46" fill="none" stroke="#c8922a" stroke-width="0.5" stroke-dasharray="2 3"/>
+  <path d="M39 32 L61 32 L61 36 L55 36 L55 74 L66 74 L66 65 L71 65 L71 80 L39 80 L39 76 L45 76 L45 36 L39 36 Z" fill="#c8922a"/>
+</svg>

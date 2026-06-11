@@ -11,24 +11,11 @@ python3 -m http.server 8080
 # then open http://localhost:8080
 ```
 
-## Deploy to Cloudflare Pages
+## Deployment
 
-1. Push this repo to GitHub (already done — `Jadashi97/lokose-services-website`).
-2. Log in to [Cloudflare Dashboard](https://dash.cloudflare.com/) and go to **Workers & Pages**.
-3. Click **Create application** → **Pages** → **Connect to Git**.
-4. Select the `lokose-services-website` repository and the `main` branch.
-5. Leave the build settings empty — no framework, no build command, output directory is `/` (the repo root).
-6. Click **Save and Deploy**. Cloudflare will assign a `*.pages.dev` URL.
+The site is live at [lokoseservicesgroup.com](https://www.lokoseservicesgroup.com), deployed via **GitHub Pages** from this repo (`Jadashi97/lokose-services-website`, `main` branch). The domain is registered at Porkbun with DNS pointing to GitHub Pages; the root domain redirects to `www`.
 
-## Connect Your Domain (lokoseservicesgroup.com — registered at Porkbun)
-
-1. In the Cloudflare Pages project, go to **Custom domains** → **Set up a custom domain**.
-2. Enter `lokoseservicesgroup.com` and click **Continue**.
-3. In the Porkbun dashboard, open the domain's **DNS Records** and add:
-   - **CNAME** `@` (root) → `lokose-services-website.pages.dev`
-   - **CNAME** `www` → `lokose-services-website.pages.dev`
-4. Wait for SSL certificate provisioning (usually under 5 minutes).
-5. The canonical URL in `index.html` and `sitemap.xml` already points to `https://lokoseservicesgroup.com/`.
+Every push to `main` deploys automatically — no build step, no manual action needed.
 
 ## Contact Form
 

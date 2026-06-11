@@ -1,6 +1,6 @@
 # Lokose Services Group — Federal Contracting Website
 
-Static single-page website for **Lokose Services Group LLC**, a minority-owned small business providing grounds maintenance, painting, and waste disposal services to federal agencies nationwide. Registered in SAM.gov (UEI: W1V5K5LCWFW7) and self-certified as a Small Disadvantaged Business (SDB) under FAR 52.212-3.
+Static single-page website for **Lokose Services Group LLC**, a minority-owned small business providing grounds maintenance, painting, janitorial, and waste disposal services to federal agencies nationwide. Registered in SAM.gov (UEI: W1V5K5LCWFW7) and self-certified as a Small Disadvantaged Business (SDB) under FAR 52.212-3.
 
 ## Preview Locally
 
